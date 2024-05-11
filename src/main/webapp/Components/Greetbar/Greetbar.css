@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#greeting-container {
+    background-color: #534891;
+    color: #f1f1f2;
+    padding-bottom: 5vh;
+    padding: 2vh 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#greeting-container p.greet-msg {
+    align-self: center;
+    font-size: 30px;
+}
+
+section#greeting-container a.login-button {
+    padding: 1.5vh 1vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

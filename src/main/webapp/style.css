@@ -1,0 +1,1505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS for Footer */
+
+footer {
+    background-color: #534891;
+    color: #f1f1f2;
+    padding-bottom: 5vh;
+}
+
+footer p.heading {
+    padding: 25px 2.5vw;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer hr {
+    background-color: #f1f1f2;
+    width: 94.5%;
+    height: 0.2vh;
+    margin: 0 auto 2.5vh auto;    
+}
+
+footer p.infoFrame {
+    width: 94.5%;
+    font-size: 16px;
+    margin: auto;
+    text-align: justify;
+}
+
+footer p.heading2 {
+    padding: 25px 2.5vw;
+    font-size: 25px;
+}
+
+footer div.memebers-info {
+    display: flex;
+    width: 94.5%;
+    justify-content: space-evenly;
+}
+
+footer .member-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+footer .member-info {
+    text-align: center;
+    margin: 10px 0;
+    flex: 1 0 25%; /* Four items per row by default */
+}
+  
+footer .member-info img {
+    width: 100%;
+    height: 15vw;
+    max-width: 15vw; /* Adjust the image size as needed */
+}
+  
+footer .member-info p {
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
+ 
+ /* CSS for Header/Navbar */
+ 
+ header.topnav {
+    display: flex;
+    align-items: center;
+    color: #20024E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+
+header.topnav span.bank-name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header.topnav img {
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+
+header.topnav ul {
+    margin-left: auto;
+    margin-right: 6px;
+}
+
+header.topnav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 8px;
+    position: relative;
+}
+
+header.topnav ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 3px;
+    padding: 16px 0;
+    color: inherit;
+}
+
+header.topnav ul li a:hover {
+    border-bottom: 8px solid #534891;
+    transition: 0.1s;
+}
+
+
+header.topnav ul li a.active {
+    border-bottom: 8px solid #534891;
+}
+
+/* CSS for Greetbar */
+
+section#greeting-container {
+    background-color: #534891;
+    color: #f1f1f2;
+    padding-bottom: 5vh;
+    padding: 2vh 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#greeting-container p.greet-msg {
+    align-self: center;
+    font-size: 30px;
+}
+
+section#greeting-container a.login-button {
+    padding: 1.5vh 1vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* CSS for Greetbar */
+
+section#banner {
+    height: clamp(40vh,80vh,100vh);
+    width: 100%;
+    background-image: url('Resources/Banner/banner-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section#banner a.get-started {
+    padding: 2vh 2vw;
+    position: absolute;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 85vh;
+    left: 7vw;
+}
+
+/* CSS for Main/ Services Banner on Homepage */
+
+main#services {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f2;
+    padding: 0 5px 20px 5px;
+}
+
+main#services h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: #f1f1f2;
+    color: #534891;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main#services h2 {
+    font-size: 15px;
+    text-align: center;
+    background-color: #f1f1f2;
+    color: #534891;
+}
+
+main#services .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f1f1f2;
+    padding: 20px;
+    gap: 30px;
+}
+
+main#services .grid-item {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main#services .grid-item img {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+main#services .loan-name {
+    font-size: 25px;
+    color: #534891;
+}
+
+main#services ul {
+    margin-top: 10px;
+    line-height: 2.5;
+    color: #534891;
+}
+
+main#services ul li{
+    list-style-type: square;
+}
+
+main#services a.explore-loans {
+    padding: 1.5vh 2vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+}
+
+main#feedback {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f2;
+    color: #534891;
+}
+
+main#feedback .left-banner {
+    width: 50vw;
+    height: 35vw;
+    background-color: #f1f1f2;
+    border-radius: 2px;
+}
+
+main#feedback .right-form-section {
+    margin-left: 5vw;
+    width: 40vw;
+    background-color: #f1f1f2;
+    padding: 10vh 0 0 5vw;
+}
+
+main#feedback .left-banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+main#feedback .right-form-section form{
+    padding: 0;
+}
+
+main#feedback .right-form-section .feedback-header{
+    font-size: 25px;
+    margin: 20px 0;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+main#feedback .right-form-section input[type="submit"] {
+    width: 100%;
+    background-color: #D73B00;
+    color: #f1f1f2;
+    font-size: 21px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main#feedback .right-form-section input[type="submit"]:hover{
+    background-color: #c93601;
+}
+
+main#feedback .right-form-section form #suggestion-textarea {
+    padding: 5px;
+    border: 0.5px solid #534891;
+    width: 100%;
+    resize: none;
+    height: 33vh;
+    margin-bottom: 20px;
+    color: #534891;
+    font-size: 20px;
+}
+
+main#feedback .right-form-section form #suggestion-textarea:focus {
+	outline: none;
+	padding: 5px;
+}
+
+/* CSS for All-Transactions Page */
+
+
+section#all-transactions .container {
+    background-color: #f1f1f2;
+    color: #534891;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+section#all-transactions p.sub-heading {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section#all-transactions table {
+    margin: 5vh 0;
+    border-collapse: collapse;
+    color: #534891; /* Text color */
+}
+section#all-transactions tr {
+    margin-top: 3px;
+}
+section#all-transactions td {
+    padding: 8px;
+    font-size: 28px;
+    border-bottom: 1px solid #534891;
+}
+section#all-transactions span.debit {
+    color: rgb(162, 3, 3);
+}
+section#all-transactions span.credit {
+    color: forestgreen;
+}
+
+section#all-transactions input[type="text"] {
+    width: 60%;
+    padding: 5px;
+    padding: 1vh 3vw;
+    border: none;
+    font-size: 18px;
+    color: #534891;
+    border-bottom: 1px solid #534891;
+    box-shadow: none;
+    background-color: #f1f1f2;
+    outline: none;
+}
+
+section#all-transactions input[type="text"]:hover {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #534891;
+
+}
+section#all-transactions button[type="submit"]  {
+    padding: 1vh 3vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section#all-transactions button[type="submit"]:hover  {
+    background-color: #c43400;
+}
+section#all-transactions a.view-all-button {
+    padding: 1vh 3vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Contact Page Contact Card CSS */
+
+section.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('Resources/Background/bank-bg-without-text.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+section.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+section.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #120c12;
+    opacity: 1;
+    z-index: 100;
+}
+
+section.contact .content p {
+    font-weight: 300;
+    color: #6c1919;
+    opacity: 1;
+}
+
+section.contact .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+section.contact .container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+section.contact .container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+section.contact .container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #5f2f2f;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+section.contact .container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+section.contact .contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    opacity: 0.6;
+}
+
+section.contact .contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+section.contact .contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+section.contact .contactForm .inputBox input,
+section.contact .contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+section.contact .contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+section.contact .contactForm .inputBox input:focus~span,
+section.contact .contactForm .inputBox input:valid~span,
+section.contact .contactForm .inputBox textarea:focus~span,
+section.contact .contactForm .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+section.contact .contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: rgb(19, 17, 17);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* CSS for Icons Inside the Services Page */
+
+main#services-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f2;
+    padding: 0 5px 20px 5px;
+}
+
+main#services-page h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: #f1f1f2;
+    color: #534891;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main#services-page .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+main#services-page .grid-item {
+    border-radius: 5px;
+    cursor: pointer;
+    max-height: 50vh;
+    padding: 35px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main#services-page .grid-item:hover {
+    background-color: #dcdcdd;
+}
+
+main#services-page .grid-item img{
+    width: 40%;
+    height: 40%;
+}
+
+main#services-page .sub-heading {
+    font-size: 45px;
+    color: #534981;
+}
+
+main#services-page a.service-link {
+    padding: 1.5vh 2vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3vh auto;
+}
+
+/* CSS for SignUp Form */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+section#signup-form .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+section#signup-form .containerInner {
+    background: none;
+    position: relative;
+    top: -10%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section#signup-form header.signup_here {
+    font-weight: bold;
+    font-size: 1.9em;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+section#signup-form main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+section#signup-form label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+section#signup-form input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+section#signup-form input[type="radio"] {
+    display: inline;
+    max-width: fit-content;
+    margin: 3px 5px;
+}
+
+section#signup-form input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+section#signup-form input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+section#signup-form input[type="submit"]:hover {
+    background-color: #bd3200;
+}
+
+/* CSS for SignIn Form */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+section#login-form .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+section#login-form .containerInner {
+    background: none;
+    position: relative;
+    top: 16%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section#login-form header.login_here {
+    font-weight: bold;
+    font-size: 1.9em;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+section#login-form main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+section#login-form label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+section#login-form input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+section#login-form input.custom-input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+section#login-form input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+section#login-form input[type="submit"]:hover {
+    background-color: #bd3200;
+}
+
+/* CSS for Balance Enquiry Page */
+
+section#bal-enquiry .container {
+    background-color: #f1f1f2;
+    color: #534891;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#bal-enquiry .container-item {
+    padding: 3vh 3vw;
+    margin: 5vw 5vw;
+    min-height: 52vh;
+    min-width: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+
+section#bal-enquiry .container-item hr {
+    margin: 25px 0;
+    height: 2px;
+    background-color: #534891;
+}
+
+section#bal-enquiry p.balance-text {
+    margin-top: 2vh;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section#bal-enquiry p.sub-heading {
+    font-size: 25px;
+    text-align: center;
+}
+
+section#bal-enquiry table {
+    margin-top: 5vh;
+    width: 100%;
+    border-collapse: collapse;
+    color: #534891; /* Text color */
+}
+section#bal-enquiry tr {
+    margin-top: 3px;
+}
+section#bal-enquiry td {
+    padding: 8px;
+    font-size: 21px;
+    border-bottom: 1px solid #534891;
+}
+section#bal-enquiry span.debit {
+    color: rgb(162, 3, 3);
+}
+section#bal-enquiry span.credit {
+    color: forestgreen;
+}
+
+section#bal-enquiry a.view-all-button {
+    padding: 1vh 3vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* CSS for Withdraw Page */
+
+section#withdraw-section .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+section#withdraw-section .containerInner {
+    background: none;
+    position: relative;
+    top: 12%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section#withdraw-section header.login_here {
+    font-weight: bold;
+    font-size: 25px;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+section#withdraw-section main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+section#withdraw-section label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+section#withdraw-section input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+section#withdraw-section input.custom-input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+section#withdraw-section input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+/* CSS for Deposit Page */
+
+section#deposit-section .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+section#deposit-section .containerInner {
+    background: none;
+    position: relative;
+    top: 12%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section#deposit-section header.login_here {
+    font-weight: bold;
+    font-size: 25px;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+section#deposit-section main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+section#deposit-section label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+section#deposit-section input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+section#deposit-section input.custom-input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+section#deposit-section input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+section#deposit-section input[type="submit"]:hover {
+    background-color: #bd3200;
+}
+
+/* CSS for Transfer Page */
+
+section#transfer-section .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+section#transfer-section .containerInner {
+    background: none;
+    position: relative;
+    top: 12%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section#transfer-section header.login_here {
+    font-weight: bold;
+    font-size: 25px;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+section#transfer-section main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+section#transfer-section label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+section#transfer-section input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+section#transfer-section input.custom-input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+section#transfer-section input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+section#transfer-section input[type="submit"]:hover {
+    background-color: #bd3200;
+}
+
+/* CSS for Update Details Page */
+
+main#update-details .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+main#update-details .containerInner {
+    background: none;
+    position: relative;
+    top: -10%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main#update-details header.signup_here {
+    font-weight: bold;
+    font-size: 25px;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+main#update-details main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+main#update-details label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+main#update-details input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+main#update-details input[type="radio"] {
+    display: inline;
+    max-width: fit-content;
+    margin: 3px 5px;
+}
+
+main#update-details input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+main#update-details input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+main#update-details input[type="submit"]:hover {
+    background-color: #bd3200;
+}
+
+/* CSS for Apply Loan Page */
+
+main#apply-loan .container {
+    background: url('Resources/Background/bank-bg-without-text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+main#apply-loan .containerInner {
+    background: none;
+    position: relative;
+    top: 12%;
+    left: -28%;
+    transform: translateY(30%);
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main#apply-loan header.login_here {
+    font-weight: bold;
+    font-size: 25px;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+main#apply-loan main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+main#apply-loan label {
+    color: #534891;
+    display: block;
+    margin-top: 5px 0 3px 0;
+    font-size: 1.2em;
+}
+
+main#apply-loan input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 3px 0;
+    border: 0.2px solid #534891;
+}
+
+main#apply-loan input.custom-input:focus {
+    outline: none;
+    border: 0.5px solid #534891;
+}
+
+main#apply-loan input[type="submit"] {
+    margin-top: 10px;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+main#apply-loan input[type="submit"]:hover {
+    background-color: #bd3200;
+}
+
+/* CSS for Manager View Page */
+
+section.manager-view .container {
+    background-color: #f1f1f2;
+    color: #534891;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.manager-view .container-item {
+    padding: 3vh 3vw;
+    margin: 5vw 5vw;
+    min-height: 52vh;
+    min-width: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+
+section.manager-view .container-item hr {
+    margin: 25px 0;
+    height: 2px;
+    background-color: #534891;
+}
+
+section.manager-view p.balance-text {
+    margin-top: 2vh;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.manager-view p.sub-heading {
+    font-size: 25px;
+    text-align: center;
+}
+
+section.manager-view table {
+    margin-top: 5vh;
+    width: 100%;
+    border-collapse: collapse;
+    color: #534891; /* Text color */
+}
+
+section.manager-view tr {
+    margin-top: 3px;
+}
+
+section.manager-view td {
+    padding: 8px;
+    font-size: 21px;
+    border-bottom: 1px solid #534891;
+}
+
+section.manager-view span.debit {
+    color: rgb(162, 3, 3);
+}
+
+section.manager-view span.credit {
+    color: forestgreen;
+}
+
+section.manager-view input[type="text"] {
+    width: 60%;
+    padding: 5px;
+    padding: 1vh 3vw;
+    border: none;
+    font-size: 18px;
+    color: #534891;
+    border-bottom: 1px solid #534891;
+    box-shadow: none;
+    background-color: #f1f1f2;
+    outline: none;
+}
+
+section.manager-view input[type="text"]:hover {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #534891;
+
+}
+section.manager-view button[type="submit"]  {
+    padding: 1vh 3vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section.manager-view button[type="submit"]:hover  {
+    background-color: #c43400;
+}
+
+/* CSS for Customer details view through Manager Page */
+
+section.manager-view2 .container {
+    background-color: #f1f1f2;
+    color: #534891;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.manager-view2 .container-item {
+    padding: 3vh 3vw;
+    margin: 5vw 5vw;
+    min-height: 52vh;
+    min-width: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+
+section.manager-view2 .container-item hr {
+    margin: 25px 0;
+    height: 2px;
+    background-color: #534891;
+}
+
+section.manager-view2 p.balance-text {
+    margin-top: 2vh;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.manager-view2 p.sub-heading {
+    font-size: 25px;
+    text-align: center;
+}
+
+section.manager-view2 table {
+	width: 100%;
+    margin-top: 5vh;
+    border-collapse: collapse;
+    color: #534891; /* Text color */
+}
+
+section.manager-view2 tr {
+    margin-top: 3px;
+}
+
+section.manager-view2 td {
+    padding: 8px;
+    font-size: 21px;
+    border-bottom: 1px solid #534891;
+}
+
+section.manager-view2 span.debit {
+    color: rgb(162, 3, 3);
+}
+
+section.manager-view2 span.credit {
+    color: forestgreen;
+}
+
+section.manager-view2 input[type="text"] {
+    width: 60%;
+    padding: 5px;
+    padding: 1vh 3vw;
+    border: none;
+    font-size: 18px;
+    color: #534891;
+    border-bottom: 1px solid #534891;
+    box-shadow: none;
+    background-color: #f1f1f2;
+    outline: none;
+}
+
+section.manager-view2 input[type="text"]:hover {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #534891;
+
+}
+
+section.manager-view2 button[type="submit"]  {
+    padding: 1vh 3vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section.manager-view2 button[type="submit"]:hover  {
+    background-color: #c43400;
+}
+
+section.manager-view2 a.view-all-button {
+    padding: 1vh 3vw;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* CSS for Registration Success Page */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+main#reg-success .tick-icon {
+    font-size: 24px;
+    color: #534891;
+    margin-left: 5px;
+}
+
+main#reg-success .container {
+    background: url("Resources/Background/bank-bg-without-text.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+main#reg-success .containerInner {
+    background: none;
+    position: relative;
+    top: 12%;
+    left: -28%;
+    transform: translateY(35%);
+    border-radius: 5px;
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+main#reg-success .success-message {
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #534891;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+main#reg-success  main.inputs {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+main#reg-success p {
+    width: 100%;
+    padding: 2px;
+    margin: auto;
+    font-size: 18px;
+    color: #534891;
+    text-align: center;
+}
+
+main#reg-success p.next {
+    margin: 30px auto;
+    background-color: #D73B00;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 1.2em;
+    border-radius: 2.5px;
+    width: 90%;
+    text-align: center;
+    padding: 1.2vh 2vw;
+    cursor: pointer;
+}
+
+
+main#reg-success p.next:hover {
+    background-color: #be3300;
+}

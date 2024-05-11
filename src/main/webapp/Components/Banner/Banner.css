@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#banner {
+    height: clamp(40vh,80vh,100vh);
+    width: 100%;
+    background-image: url('banner-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section#banner a.get-started {
+    padding: 2vh 2vw;
+    position: absolute;
+    color: #f1f1f2;
+    text-decoration: none;
+    background-color: #D73B00;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 80vh;
+    left: 8vw;
+}

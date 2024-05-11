@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #534891;
+    color: #f1f1f2;
+    padding-bottom: 5vh;
+}
+
+footer p.heading {
+    padding: 25px 2.5vw;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer hr {
+    background-color: #f1f1f2;
+    width: 94.5%;
+    height: 0.2vh;
+    margin: 0 auto 2.5vh auto;    
+}
+
+footer p.infoFrame {
+    width: 94.5%;
+    font-size: 16px;
+    margin: auto;
+    text-align: justify;
+}
+
+footer p.heading2 {
+    padding: 25px 2.5vw;
+    font-size: 25px;
+}
+
+footer div.memebers-info {
+    display: flex;
+    width: 94.5%;
+    justify-content: space-evenly;
+}
+
+footer .member-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+footer .member-info {
+    text-align: center;
+    margin: 10px 0;
+    flex: 1 0 25%; /* Four items per row by default */ /* Adjust max-width to ensure responsiveness */
+}
+  
+footer .member-info img {
+    width: 100%;
+    height: auto;
+    max-width: 150px; /* Adjust the image size as needed */
+}
+  
+footer .member-info p {
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
+  
+@media screen and (max-width: 768px) {
+    footer .member-info {
+        flex-basis: 50%; /* Two items per row for screens smaller than 768px */
+        max-width: 50%; /* Adjust max-width for responsiveness */
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    footer .member-info {
+        flex-basis: 100%; /* One item per row for screens smaller than 480px */
+        max-width: 100%; /* Adjust max-width for responsiveness */
+    }
+}
+  
+  

@@ -1,0 +1,65 @@
+<section class="contact" >
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with the GenzBank</p>
+    </div>
+    <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>
+                        751024 ,Silicon Hills ,<br />Patia , Bhubaneshwar<br />
+                        Odisha
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>507-475-6094</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>genz.bank.2k23@sit.in</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactForm">
+            <form onsubmit="return validateContactForm()" action="../../Logic/contactUs.jsp" method="post" name="contact-form">
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="name">
+                    <span>Full Name</span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" name="email" />
+                    <span>Email</span>
+                </div>
+
+                <div class="inputBox">
+                    <textarea name="message"></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Send" />
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
